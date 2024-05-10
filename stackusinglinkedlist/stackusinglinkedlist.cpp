@@ -36,3 +36,6 @@ public:
 		top = top->next;
 	}
 	void peek() {
+		if (top == NULL) {
+			cout << "List is empty." << endl;
+		}
